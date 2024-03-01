@@ -1,7 +1,6 @@
-```bash
-cd ~/Library
-rm -rf Rime
-git clone git@github.com:iuxt/squirrel-rime-config.git Rime
+```bat
+# 进入 %appdata%\Rime
+git clone git@github.com:iuxt/weasel-rime-config.git Rime
 ```
 
 重新部署一下。
