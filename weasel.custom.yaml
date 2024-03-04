@@ -39,7 +39,7 @@ patch:
     font_face: "LXGW WenKai, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Microsoft YaHei, SF Pro, Segoe UI Emoji, Noto Color Emoji"
     label_font_face: "Microsoft YaHei"       # 标签字体
     comment_font_face: "Microsoft YaHei"     # 注释字体
-    font_point: 18                           # 全局字体字号
+    font_point: 16                           # 全局字体字号
     label_font_point: 14                     # 标签字体字号，不设定 fallback 到 font_point
     comment_font_point: 13                   # 注释字体字号，不设定 fallback 到 font_point
 
@@ -75,7 +75,7 @@ patch:
       margin_x: 8                            # 主体元素和候选框的左右边距；为负值时，不显示候选框
       margin_y: 8                            # 主体元素的上下边距；为负值时，不显示候选框
       spacing: 13                            # inline_preedit 为否时，编码区域和候选区域的间距
-      candidate_spacing: 22                  # 候选项之间的间距
+      candidate_spacing: 12                  # 候选项之间的间距
       hilite_spacing: 6                      # 候选项和相应标签的间距
       hilite_padding: 8                      # 高亮区域和内部文字的间距，影响高亮区域大小
       # hilite_padding_x: 8                  # 高亮区域和内部文字的左右间距，如无特殊指定则依 hilite_padding 设置
