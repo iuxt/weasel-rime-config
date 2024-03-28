@@ -1,5 +1,5 @@
 ```bat
-# 进入 %appdata%\Rime
+# 进入 %appdata%
 git clone git@github.com:iuxt/weasel-rime-config.git Rime
 ```
 
